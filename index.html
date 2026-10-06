@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap" rel="stylesheet">
     <style>
         
         
@@ -70,19 +73,39 @@
             width: 100%;
             background-color: #C2EFD4;
             height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
             
         }
         .jgf{
             color: #224F34;
             display: flex;
             flex-direction: column;
+            width: 750px;
+            height: 850px;
+            padding-top: 100px;
+            padding-left: 174px;
+            gap: 40px;
+        }
+        .text1jgf{
+            font-weight: 700;
+            font-size: 86px;
+            font-family: Rufina;
+        }
+        .text2jgf{
+            color: #267D49;
+            width: 500px;
+            font-family: Poppins;
+            font-weight: 500;
+            font-size: 24px;
+
         }
         .bottonjgf{
-            width: 142px;
-            height: 52px;
+            width: 258px;
+            height: 72px;
             color: white;
             background-color: #224F34;
-            border: 1px solid #224f34;
             border-radius: 3px;
             font-family: Poppins;
             font-weight: 500;
@@ -92,6 +115,29 @@
             justify-content: center;
             align-items: center;
         }
+        .kart{
+            
+            width: 750px;
+            height: 900px;
+            margin-top: 100px;
+            margin-left: 260px;
+        }
+        .kart img{
+            width: 570px;
+            height: 717px;
+        }
+        .nadpis1{
+
+        }   
+        .nadpis2{
+
+        }
+        .best{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+        }
+        
         
 
     </style>
@@ -120,13 +166,21 @@
     <main>
         <section>
             <div class="jgf">
-                <h1>Discover and Find Your Own Fashion!</h1>
+                <div class="text1jgf">
+                    <p>Discover and Find Your Own Fashion!</p>
+                </div>
+                <div class="text2jgf">
                 <p>Explore our curated collection stylish clothing and accessories tailored to your unique taste.</p>
+                </div>
                 <div class="bottonjgf">
-                    <h6>Explore now</h6>
+                    <p>Explore now</p>
                 </div>
             </div>
+            <div class="kart">
+                <img src="png/sashachort.png" alt="">
+            </div>
         </section>
+        <div class=""></div>
     </main>
 </body>
 </html>
